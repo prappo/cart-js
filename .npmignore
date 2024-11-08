@@ -1,0 +1,26 @@
+# Source files
+src/
+cart/
+
+# Config files
+vite.config.ts
+vite.lib.config.ts
+vite.demo.config.ts
+tsconfig.json
+
+# Development files
+node_modules/
+.vscode/
+.idea/
+.git/
+.gitignore
+demo/
+
+# Test files
+test/
+*.test.ts
+*.spec.ts
+
+# Other
+.DS_Store
+*.log 
