@@ -5,7 +5,7 @@ import { resolve } from 'path';
 export default defineConfig({
   build: {
     lib: {
-      entry: resolve(__dirname, 'cart/cart.tsx'),
+      entry: resolve(__dirname, 'cart/cart.ts'),
       name: 'Cart',
       fileName: (format) => `cart.${format}.js`,
       formats: ['es', 'umd']
